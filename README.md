@@ -6,10 +6,14 @@ Prerequisites: Node >= 20
 
 1. Clone the repository
 
+   ```
+   git clone https://github.com/AdnanShah/React-News-Aggregator.git
+   ```
+
 2. Install dependencies:
 
    ```
-   cd project
+   cd project-name
    yarn
    ```
 
@@ -17,19 +21,17 @@ Prerequisites: Node >= 20
 
    Create a .env file in the root of the project and add your API keys:
 
-   `VITE_NEWS_API_KEY=your_newsapi_key
-VITE_GUARDIAN_API_KEY=your_guardian_key
-VITE_NYT_API_KEY=your_nyt_key`
+   ```
+   VITE_NEWS_API_KEY=your_newsapi_key
+   VITE_GUARDIAN_API_KEY=your_guardian_key
+   VITE_NYT_API_KEY=your_nyt_key
+   ```
 
-## Usage
+4. Start the development server:
 
-Start the development server:
-
-```bash
-yarn dev
-```
-
----
+   ```
+   yarn dev
+   ```
 
 ## Dockerization
 
@@ -47,8 +49,6 @@ Open a terminal in the root directory of your project and run to build the Docke
 To start a container from your image run:
 
 `docker run -p 3000:3000 react-news-aggregator`
-
----
 
 ### Use the application
 
